@@ -50,3 +50,19 @@ can be written
 $('#input').keypress(function () {...});
 
 http://www.w3.org/TR/DOM-Level-3-Events/
+
+target.keyup(function () {...});
+target.mouseover(function () {...});
+target.chamge(function () {...});
+target.click(function () {...});
+target.mouseenter(function () {...});
+target.mouseleave(function () {...});
+target.hover...^ convenience method for target.mouseenter().mouseleave();
+
+-----
+Event Delegation:
+https://learn.jquery.com/events/event-delegation/
+Do Not really get it yet.
+Keep playing around on:
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append_ref
+https://classroom.udacity.com/courses/ud245/lessons/5103579406/concepts/50210784590923
